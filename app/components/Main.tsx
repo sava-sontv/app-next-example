@@ -1,0 +1,11 @@
+type MainProps = {
+  children: React.ReactNode;
+};
+
+export default function Main({ children }: MainProps) {
+  return (
+    <main className="flex-1 px-4 py-8">
+      <div className="mx-auto max-w-6xl">{children}</div>
+    </main>
+  );
+}
