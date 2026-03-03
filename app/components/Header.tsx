@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import Nav from './Nav';
 
@@ -108,8 +110,7 @@ function UserProfile() {
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-foreground/10 bg-header-bg">
-      <div className="mx-auto flex max-w-6xl items-center justify-between
-        gap-6 px-4 py-3">
+      <div className="mx-auto flex items-center justify-between gap-6 px-4 py-3">
         <Logo />
         <div className="absolute left-1/2 -translate-x-1/2">
           <Nav />
